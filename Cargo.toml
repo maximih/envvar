@@ -1,0 +1,4 @@
+[package]
+name = "envvar"
+version = "0.1.0"
+authors = ["Maximilian Hristache <mhristache@gmail.com>"]
