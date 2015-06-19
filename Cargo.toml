@@ -1,13 +1,12 @@
 [package]
 name = "envvar"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Maximilian Hristache"]
 license = "MIT"
 description = """
 This tiny crate provides the `var()` function which is the same as 
-[`std::env::var`](https://doc.rust-lang.org/stable/std/env/fn.var.html) but the 
-`NotPresent` variant of `VarError` provides the name of the missing environment variable"
-homepage = "https://github.com/maximih/envvar
+`std::env::var()` but the `NotPresent` variant of `VarError` provides 
+the name of the missing environment variable
 """
 repository = "https://github.com/maximih/envvar"
 homepage = "https://github.com/maximih/envvar"
