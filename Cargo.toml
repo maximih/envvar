@@ -1,6 +1,6 @@
 [package]
 name = "envvar"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Maximilian Hristache"]
 license = "MIT"
 description = """

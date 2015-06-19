@@ -19,7 +19,7 @@ pub enum VarError {
 impl fmt::Display for VarError {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         match *self {
-            VarError::NotPresent(ref s) => write!(f, "environment variable \"{:?}\" not found", s),
+            VarError::NotPresent(ref s) => write!(f, "environment variable \"{}\" not found", s),
             VarError::NotUnicode(ref s) => {
                 write!(f, "environment variable was not valid unicode: {:?}", s)
             }
