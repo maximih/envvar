@@ -1,8 +1,8 @@
 [package]
 name = "envvar"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["Maximilian Hristache"]
-license = "MIT"
+license = "MIT OR Apache-2.0"
 description = """
 This tiny crate provides the `var()` function which is the same as 
 `std::env::var()` but the `NotPresent` variant of `VarError` provides 
